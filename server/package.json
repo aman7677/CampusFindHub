@@ -1,0 +1,22 @@
+{
+  "name": "lost-and-found-server",
+  "version": "1.0.0",
+  "description": "Lost and Found Campus Management System - Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.6.0",
+    "mongoose": "^8.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
